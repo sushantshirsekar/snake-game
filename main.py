@@ -13,14 +13,19 @@ screen.tracer(0)
 screen.update()
 snake = Snake()
 
+screen.listen()
+screen.onkey(snake.up, "Up")
+screen.onkey(snake.down, "Down")
+screen.onkey(snake.left, "Left")
+screen.onkey(snake.right, "Right")
+
+
 is_game_on = True
+count = 1
 while is_game_on:
     screen.update()
     time.sleep(0.2)
     snake.move()
-
-    # segments[0].left(90)
-
 
 
 screen.exitonclick()
