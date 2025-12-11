@@ -1,84 +1,68 @@
-🐍 Python Snake Game (Turtle Graphics)
-🔷 Overview
+# 🐍 Snake Game (Python Turtle)
 
-This project is part of my Python learning journey, inspired by Dr. Angela Yu’s 100 Days of Python Pro Bootcamp.
-It focuses on building the classic Snake Game using Python’s built-in turtle module — covering movement logic, collision detection, score tracking, and clean object-oriented design.
+## 📘 Overview
 
-Even though this project is simple, it represents the fun and creative side of Python while strengthening core fundamentals.
+This project is part of my Python learning journey, inspired by the **Dr. Angela Yu's 100 Days of Python Pro Bootcamp**.  
+It focuses on building the classic **Snake Game** in Python using the **turtle module** — covering game logic, clean code structure, and object-oriented programming.
 
-🕹️ Game Preview
+Even though this is a beginner-friendly game, it demonstrates how to manage game loops, collisions, and class-based architecture.
 
-(You can add a GIF or screenshot here later)
+---
 
-🧩 How the Game Works
-🟩 Snake Movement
+## 🧩 Project Structure
 
-The snake moves continuously on the screen
+### 📁 Files Included
+- `main.py` — screen setup + game loop  
+- `snake.py` — Snake movement, segments, and growth  
+- `food.py` — Food generation logic  
+- `scoreboard.py` — Score and high-score display  
 
-Arrow keys control direction
+---
 
-Segments follow the head smoothly
+## 🕸️ Game Mechanics
 
-🍎 Food Mechanics
+### 🐍 Snake
+- Moves smoothly using keyboard controls  
+- Grows on eating food  
+- Detects self-collision  
 
-Food appears at random positions
+### 🍎 Food
+- Randomly placed on-screen  
+- Respawns instantly after being eaten  
 
-Eating food increases length
+### 🧱 Collisions
+- Game over on wall hit  
+- Game over on snake body hit  
 
-Score increases with each bite
+---
 
-💥 Game Rules
+## ⚙️ Technology Used
+- **Language:** Python  
+- **Library:** Turtle  
+- **IDE:** VS Code / PyCharm  
 
-Game ends when snake hits a wall
+---
 
-Game ends if snake bites itself
+## 🎯 Project Goals
+- Strengthen understanding of **OOP in Python**  
+- Build a complete mini-game from scratch  
+- Learn event listeners, game loops, and collision detection  
+- Improve modular coding practices  
 
-Scoreboard resets on game over
+---
 
-⚙️ Technology Used
+## 🧠 Learning Notes
+This project helped me understand how game rendering works using the `turtle` module and how to manage object interactions cleanly through classes.
 
-Language: Python
+---
 
-Graphics Library: Turtle (built-in)
+## 👤 About Me
+Hi, I’m **Sushant Shirsekar** — I’ve worked **1.5 years as an Android Developer** and am now learning Python through hands-on projects.  
+I’m exploring game development and backend fundamentals to grow my software engineering skills.
 
-Programming Paradigm: OOP
+📩 **Email:** sushantshirsekar54@gmail.com  
+🔗 **LinkedIn:** www.linkedin.com/in/sushant-shirsekar-886229222  
 
-🎯 Project Goals
+---
 
-Strengthen OOP fundamentals
-
-Understand animation loops
-
-Practice using turtle graphics
-
-Implement collisions and movement logic
-
-Learn modular code structure
-
-🧠 Learning Notes
-
-This project helped me understand game design basics, how objects move frame-by-frame, and how to build games using only Python’s standard library.
-
-🔮 Future Enhancements
-
-High score storage
-
-Increasing speed
-
-Sound effects
-
-Restart menu
-
-Wrap-around map
-
-👤 About Me
-
-Hi, I’m Sushant Shirsekar — a Software Developer exploring Python and game development through hands-on projects.
-
-📧 Email: sushantshirsekar54@gmail.com
-
-🔗 LinkedIn: www.linkedin.com/in/sushant-shirsekar-886229222
-
-⭐ Support
-
-If this project inspired you, consider giving it a ⭐ on GitHub!
+⭐ **If you found this project interesting, consider giving it a star on GitHub!**
